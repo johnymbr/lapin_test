@@ -1,0 +1,19 @@
+[package]
+name = "lapin_test"
+version = "0.1.0"
+authors = ["Johny Marques <johny.ribeiro@ufu.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-global-executor = "2.0.2"
+dotenv = "0.15.0"
+futures-lite = "1.11.3"
+lapin = "1.6.9"
+log = "0.4.11"
+tokio = "1.4.0"
+tokio-amqp = "1.0.0"
+env_logger = "0.8.3"
+tokio-executor-trait = "2.0.1"
+tokio-reactor-trait = "0.2.0"
